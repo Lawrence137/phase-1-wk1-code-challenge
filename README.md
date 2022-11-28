@@ -14,7 +14,7 @@ Write a program that takes as input the speed of a car e.g 80. If the speed is l
 
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 # solution
-It contains a function that takes in speed where if speed is greater than 70 and if the current speed when divided by 5 has no remainder, then it prints points: plus the division result. If the points exceed 12, the function returns license suspended.
+It contains a function that takes in speed where if speed is greater than 70, then it prints points: plus the division result. If the points exceed 12, the function returns license suspended.
 
 
 # challenge 3
@@ -29,7 +29,7 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 # Authors
 This project was contributed to by;
--[Lawrence kimani]("https://github.com/Lawrence137/phase-1-wk1-code-challenge)
+-[Lawrence kimani]("https://github.com/Lawrence137/phase-1-wk1-code-challenge")
 
 # License
 This project is licensed under Apache 2.0.
