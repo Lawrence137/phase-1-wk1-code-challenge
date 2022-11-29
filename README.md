@@ -31,8 +31,8 @@ To use this repo on your machine requires some simple steps;
 # Running the application
 Running the application is very straight forward. Run the command of the relevant .js file in the terminal;
 For Toy problem 1, run the application on the live server.
-For Toy problem 2, run the command gradeGenerator.js in the terminal.
-For Toy problem 3, run the command salary.js in the terminal.
+For Toy problem 2, run the command node gradeGenerator.js in the terminal.
+For Toy problem 3, run the command node salary.js in the terminal.
 
 
 # challenge 1
