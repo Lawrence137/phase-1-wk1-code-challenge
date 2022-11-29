@@ -1,4 +1,40 @@
 # phase-1-wk1-code-challenge
+
+# Description
+This is a code challenge for the end of week one of phase 1.
+
+# Getting started
+In order for you to use the content on this repo ensure you have the following:
+
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
+
+# Installation
+To use this repo on your machine requires some simple steps;
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
+
+        git clone https://github.com/Lawrence137/phase-1-wk1-code-challenge
+
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
+
+        cd phase-1-wk1-code-challenge
+
+- (Optional) Open it in ``Visual Studio Code``
+
+        code .
+
+- (Alternate Option) Open it in any editor of your choice.
+
+
+# Running the application
+Running the application is very straight forward. Run the command of the relevant .js file in the terminal;
+For Toy problem 1, run the application on the live server.
+For Toy problem 2, run the command gradeGenerator.js in the terminal.
+For Toy problem 3, run the command salary.js in the terminal.
+
+
 # challenge 1
 Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
