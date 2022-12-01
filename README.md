@@ -12,7 +12,7 @@ In order for you to use the content on this repo ensure you have the following:
 # Installation
 To use this repo on your machine requires some simple steps;
 - Open a terminal / command line interface on your computer
-- Clone the repo by using the following:
+- Clone the repo by typing the following:
 
         git clone https://github.com/Lawrence137/phase-1-wk1-code-challenge
 
@@ -21,18 +21,30 @@ To use this repo on your machine requires some simple steps;
 
         cd phase-1-wk1-code-challenge
 
-- (Optional) Open it in ``Visual Studio Code``
+- (Option 1) Open it in ``Visual Studio Code`` by typing;
 
         code .
 
 - (Alternate Option) Open it in any editor of your choice.
 
 
+- Then type;
+
+      npm install 
+      
+      
 # Running the application
-Running the application is very straight forward. Run the command of the relevant .js file in the terminal;
-For Toy problem 1, run the application on the live server.
-For Toy problem 2, run the command node gradeGenerator.js in the terminal.
-For Toy problem 3, run the command node salary.js in the terminal.
+After cloning the application and opening it using Visual Studio Code or the editor of your choice, the methods for running the application are as follows;
+CHALLENGE 1
+Install an extension named live server on Visual Studio Code or the editor of your choice.
+Right click on the file named gradeGenerator.html and select the option open with live server. A window with the title Grade Generator should open in your browser. Enter your score inside the text box that's below the header 'Enter Your Score'  and click the button grade that's below the text box. Your grade should be printed below it.
+
+CHALLENGE 2
+After opening the application on Visual Studio Code, click on the file named ``speedDetector.js``. Navigate to the bottom of the code, the section commented '// Testing the code'. Delete the figure 160 inside ``console.log(carSpeed(160));`` and input the speed you'd want to test. Now navigate to the top of the page and click ``Terminal``. Select ``New Terminal``. A terminal should open at the bottom of the page. Navigate to it and type in the command 'node speedDetector.js' and hit enter. Your reply should be printed below your command in the terminal. 
+
+CHALLENGE 3
+After opening the application on Visual Studio Code, click on the file named ``salary.js``. Navigate to the bottom of the code, the section commented '// Testing the code'. Delete the figures inside ``console.log(netSalary(98000000,4600));`` and input the figures you'd want to test. Now navigate to the top of the page and click ``Terminal``. Select ``New Terminal``. A terminal should open at the bottom of the page. Navigate to it and type in the command 'node salary.js' and hit enter. The relevant figures should be printed below your command in the terminal. 
+
 
 
 # challenge 1
@@ -50,7 +62,7 @@ Write a program that takes as input the speed of a car e.g 80. If the speed is l
 
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 # solution
-It contains a function that takes in speed where if speed is greater than 70, then it prints points: plus the division result. If the points exceed 12, the function returns license suspended.
+It contains a function that takes in speed where if speed is greater than 70, then it prints points: plus the difference between the dirver's speed and the speed limit, divided by 5 which is basically calculating how many points the driver should get. If the points exceed 12, the function returns license suspended.
 
 
 # challenge 3
@@ -68,4 +80,4 @@ This project was contributed to by;
 -[Lawrence kimani]("https://github.com/Lawrence137/phase-1-wk1-code-challenge")
 
 # License
-This project is licensed under Apache 2.0.
+This project is licensed under GNU General Public License v2.0
